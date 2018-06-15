@@ -5,15 +5,8 @@ import time
 import numpy as np
 from scipy.spatial import distance as dist
 from imutils import face_utils
-from threading import Thread
-import numpy as np
-import playsound
-import argparse
-import imutils
-
 import dlib
-from twisted.internet import task
-from twisted.internet import reactor
+
 
 EYE_AR_THRESH = 0.3
 EYE_AR_CONSEC_FRAMES = 7
